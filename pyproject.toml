@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "rvm"
+version = "0.0.1"
+description = "Radical Verification Methodology"
+authors = ["Roman Parise <rparise@radicalsemiconductor.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+pyverilator = {path = "pyverilator"}
